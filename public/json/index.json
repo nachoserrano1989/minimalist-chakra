@@ -1,0 +1,73 @@
+{
+    "header": {
+        "top": {
+            "left": {
+                "src": "assets/iconos/search.svg",
+                "alt": "search",
+                "text": "SEARCH MINIMALIST BAKER"
+            },
+            "right": [
+                [
+                    {
+                        "src": "assets/iconos/facebook.svg",
+                        "alt": "Facebook"
+                    },
+                    {
+                        "src": "assets/iconos/instagram.svg",
+                        "alt": "Instagram"
+                    },
+                    {
+                        "src": "assets/iconos/pinterest.svg",
+                        "alt": "Pinterest"
+                    },
+                    {
+                        "src": "assets/iconos/twitter.svg",
+                        "alt": "Twitter"
+                    },
+                    {
+                        "src": "assets/iconos/youtube.svg",
+                        "alt": "Youtube"
+                    }
+                ]
+            ]
+        }
+    },
+    "menu": {
+        "icon1": {
+            "src": "assets/iconos/bars-solid.svg",
+            "alt": "menu"
+        },
+        "left": [
+            
+            [
+                {
+                    "text": "All Recipes"
+                },
+                {
+                    "text": "Vegan"
+                },
+                {
+                    "text": "Gluten-Free"
+                }
+            ]
+        ],
+        "title": "Minimalist Baker",
+        "icon2": {
+            "src": "assets/iconos/search.svg",
+            "alt": "lupa"
+        },
+        "right": [
+            [
+                {
+                    "text": "About"
+                },
+                {
+                    "text": "Shop"
+                },
+                {
+                    "text": "Our Baking Mixes"
+                }
+            ]
+        ]
+    }
+}
