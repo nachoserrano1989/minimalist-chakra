@@ -1,6 +1,7 @@
 import { Box, Image, Container } from '@chakra-ui/react';
 import Header from '../components/header';
 import Menu from '../components/menu';
+import NewRecipes from '../components/newRecipes';
 
 export default function Home(props) {
 
@@ -8,6 +9,7 @@ export default function Home(props) {
         <Box>
             <Header info={props} />
             <Menu info={props} />
+            <NewRecipes info={props} />
         </Box>
     )
 }

@@ -38,7 +38,6 @@
             "alt": "menu"
         },
         "left": [
-            
             [
                 {
                     "text": "All Recipes"
@@ -51,7 +50,10 @@
                 }
             ]
         ],
-        "title": "Minimalist Baker",
+        "logo": {
+            "src": "assets/images/logo.png",
+            "alt": "Minimalist Baker"
+        },
         "icon2": {
             "src": "assets/iconos/search.svg",
             "alt": "lupa"
@@ -69,5 +71,20 @@
                 }
             ]
         ]
-    }
+    },
+    "newRecipe": [
+        
+            {
+                "src": "assets/images/new-recipes-img1.jpg",
+                "alt": "receta 1"
+            },
+            {
+                "src": "assets/images/new-recipes-img2.jpg",
+                "alt": "receta 2"
+            },
+            {
+                "src": "assets/images/new-recipes-img3.jpg",
+                "alt": "receta 3"
+            }
+    ]
 }

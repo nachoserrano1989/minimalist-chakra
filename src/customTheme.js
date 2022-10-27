@@ -34,6 +34,9 @@ const customTheme = extendTheme({
         "8xl": "36px",
         "9xl": "38px",
     },
+    fonts: {
+        
+    }
 })
 
 export default customTheme

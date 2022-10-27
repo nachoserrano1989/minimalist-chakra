@@ -2,12 +2,12 @@ import { Box, Image, Container, Input } from '@chakra-ui/react';
 
 export default function Header(props) {
 
-    console.log('pros: ', props);
+    console.log('pros: ', props.info.page.newRecipe[0]);
 
     return (
         <Box
             w='100%'
-            h={{sm: '44px', md: '46px', xl: '49.5px'}}
+            h={{sm: '45px', md: '46px', xl: '49.5px'}}
             bgColor='#FFDED6'
         >
             <Container
@@ -21,7 +21,7 @@ export default function Header(props) {
                     w='30%'
                     h='100%'
                     pt='1.5px'
-                    display={{sm: 'none', lg: 'block'}}
+                    display={{sm: 'none', xl: 'block'}}
                 >
                     <Input
                         bgImage={props.info.page.header?.top.left.src}
@@ -37,6 +37,7 @@ export default function Header(props) {
                         focusBorderColor='#FFDED6'
                         _focus={{bgColor: 'white'}}
                         /* transform='scaleX(-1)' */
+                        
                     />
                 </Box>
 
