@@ -9,7 +9,7 @@ export default function Menu(props) {
             <Container
                 /* p={{sm: '30px 16px 0', md: '40px 16px 0'}} */
                 maxW='1200px'
-                h={{sm: '103px', md: '135px', xl: '154px'}}
+                h={{sm: '103px', md: '130px', xl: '160px'}}
                 p={{sm: '0 16px'}}
             >
                 <Box

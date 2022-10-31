@@ -6,7 +6,9 @@ import NewRecipes from '../components/newRecipes';
 export default function Home(props) {
 
     return (
-        <Box>
+        <Box
+          h='3000px'
+        >
             <Header info={props} />
             <Menu info={props} />
             <NewRecipes info={props} />
