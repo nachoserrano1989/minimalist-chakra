@@ -72,19 +72,83 @@
             ]
         ]
     },
-    "newRecipe": [
-        
+    "newRecipe": {
+        "cards": [
             {
                 "src": "assets/images/new-recipes-img1.jpg",
-                "title": "Southwestern Butternut Squash & Black Bean Breakfast Bowl"
+                "title": "Southwestern Butternut Squash & Black Bean Breakfast Bowl",
+                "recipesKey": [
+                    {
+                        "text": "GF",
+                        "color": "#FFDED6"
+                    },
+                    {
+                        "text": "V",
+                        "color": "#D56638"
+                    },
+                    {
+                        "text": "DF",
+                        "color": "#003811"
+                    },
+                    {
+                        "text": "NS",
+                        "color": "#2A2B2A"
+                    }
+                ]
             },
             {
                 "src": "assets/images/new-recipes-img2.jpg",
-                "title": "Pumpkin Spice Coffee Creamer (Dairy-Free!)"
+                "title": "Pumpkin Spice Coffee Creamer (Dairy-Free!)",
+                "recipesKey": [
+                    {
+                        "text": "GF",
+                        "color": "#FFDED6"
+                    },
+                    {
+                        "text": "VG",
+                        "color": "#F74639"
+                    },
+                    {
+                        "text": "V",
+                        "color": "#D56638"
+                    },
+                    {
+                        "text": "DF",
+                        "color": "#003811"
+                    },
+                    {
+                        "text": "NS",
+                        "color": "#2A2B2A"
+                    }
+                ]
             },
             {
                 "src": "assets/images/new-recipes-img3.jpg",
-                "title": "CreamyVegan Butternut Squash Risotto (Instant Pot Friendly!)"
+                "title": "CreamyVegan Butternut Squash Risotto (Instant Pot Friendly!)",
+                "recipesKey": [
+                    {
+                        "text": "GF",
+                        "color": "#FFDED6"
+                    },
+                    {
+                        "text": "VG",
+                        "color": "#F74639"
+                    },
+                    {
+                        "text": "V",
+                        "color": "#D56638"
+                    },
+                    {
+                        "text": "DF",
+                        "color": "#003811"
+                    },
+                    {
+                        "text": "NS",
+                        "color": "#2A2B2A"
+                    }
+                ]
             }
-    ]
+        ]
+    }
+    
 }

@@ -4,6 +4,7 @@ import RecipeKeyVG from './recipeKeyVG';
 import RecipeKeyV from './recipeKeyV';
 import RecipeKeyDF from './recipeKeyDF';
 import RecipeKeyNS from './recipeKeyNS';
+import Card from './card';
 
 export default function NewRecipes(props) {
 
@@ -24,23 +25,24 @@ export default function NewRecipes(props) {
                     display={{xl: 'flex'}}
                     justifyContent={{xl: 'space-between'}}
                     m={{sm: '25px 0 0 0', md: '24px 0 0 0'}}
+                    p={{'2xl': '0 15px 0 0'}}
                 >
                     <Box
-                        w='100%'
+                        w={{sm: '100%', xl: 'auto'}}
                         display='flex'
                         /* m={{sm: '25px 0 0 0', md: '24px 0 0 0'}} */
-                        justifyContent={{md: 'center'}}
+                        justifyContent={{md: 'center', xl: 'normal'}}
                     >
                         <Image 
                             src='assets/images/brandmark.png'
                             alt='logo'
                             w={{sm: '43x', md: '44px'}}
                             h={{sm: '43px', md: '44px'}}
-                            m={{sm: '0 20px 0 0 '}}
+                            m={{sm: '0 20px 0 0 ', xl: '10px 20px 0 0'}}
                         />
                         <Box
                             m={{sm: '0 auto', md: '9.5px 0 0 0'}}
-                            display={{md: 'flex'}}   
+                            display={{md: 'flex', xl: 'block'}}   
                         >
                             <Text
                                 fontSize={{sm: 'sm'}}
@@ -57,7 +59,7 @@ export default function NewRecipes(props) {
                         </Box>
                     </Box>
                     <Text
-                        fontSize={{sm: '3xl', md: '6xl'}}
+                        fontSize={{sm: '3xl', md: '6xl', xl: '8xl'}}
                         textAlign={{sm: 'center'}}
                         fontWeight={{sm:'700'}}
                         m={{sm: '10px 0 20px 0', md: '12px 0 28px 0'}}
@@ -77,7 +79,7 @@ export default function NewRecipes(props) {
                         >
                             <Text
                                 fontSize={{sm: 'md'}}
-                                color='#D56638'
+                                /* color='#D56638' */
                             >
                                 SHOW ME EVERYTHING
                             </Text>
@@ -97,106 +99,18 @@ export default function NewRecipes(props) {
                 <Box
                     display='flex'
                     w='100%'
-                    /* bgColor='blue' */
                     minH='593px'
+                    bgColor='RED'
                 >
-                    <Box
-                        w={{sm: '100%',md: '50%'/* , lg:'calc(100% / 3 - 30px)' */}}
+                    <Card 
+                        data={props} 
+                        w={{sm: '100%',md: '50%', xl:'calc(100% / 3 - 30px)'}}
                         m={{sm: '0 20px', md: '0', lg: '0 15px'}}
-                    >
-                        <Image
-                            src={props.info.page.newRecipe[0].src} 
-                            alt='hola' 
-                        />
-                        <Box
-                            display='flex'
-                            justifyContent='center'
-                            m='12px 0'
-                        >
-                            <RecipeKeyGF />
-                            <RecipeKeyV />
-                            <RecipeKeyDF />
-                            <RecipeKeyNS />
-                        </Box>
-                        <Text
-                            justifyContent='center'
-                            textAlign='center'
-                            fontSize='lg'
-                            fontWeight={{sm: '500',lg: '700'}}
-                            cursor='pointer'
-                            _hover={{color: 'orange'}}
-                            m={{sm: '0 2.5px'}}
-                            lineHeight='22.8px'
-                            /* bgColor='red' */
-                        >
-                            {props.info.page.newRecipe[0].title} 
-                        </Text>
-                    </Box>
-                     <Box
-                        w={{sm: '100%',md: '50%'/* , lg:'calc(100% / 3 - 30px)' */}}
-                        m={{sm: '0 20px', md: '0', lg: '0 15px'}}
-                    >
-                        <Image 
-                            src={props.info.page.newRecipe[1].src} 
-                            alt='adios'
-                        />
-                        <Box
-                            display='flex'
-                            justifyContent='center'
-                            m='12px 0'
-                        >
-                            <RecipeKeyGF />
-                            <RecipeKeyVG />
-                            <RecipeKeyV />
-                            <RecipeKeyDF />
-                            <RecipeKeyNS />
-                        </Box>
-                        <Text
-                            justifyContent='center'
-                            textAlign='center'
-                            fontSize={{sm: 'lg'}}
-                            fontWeight={{sm: '500',lg: '700'}}
-                            cursor='pointer'
-                            _hover={{color: 'orange'}}
-                            m={{sm: '0 2.5px'}}
-                            lineHeight='22.8px'
-                        >
-                            {props.info.page.newRecipe[1].title} 
-                        </Text>
-                    </Box>
-                            
-                    {/*<Box
-                        w={{sm: '100%', lg:'calc(100% / 3 - 30px)'}}
-                        m='0 15px'
-                    >
-                        <Image 
-                            src={props.info.page.newRecipe[2].src} 
-                            alt='astaluego'
-                        />
-                        <Box
-                            display='flex'
-                            justifyContent='center'
-                            m='12px 0'
-                        >
-                            <RecipeKeyGF />
-                            <RecipeKeyVG />
-                            <RecipeKeyV />
-                            <RecipeKeyDF />
-                            <RecipeKeyNS />
-                        </Box>
-                        <Text
-                            justifyContent='center'
-                            textAlign='center'
-                            fontSize='lg'
-                            fontWeight='700'
-                            _hover='orange'
-                        >
-                            {props.info.page.newRecipe[2].title} 
-                        </Text>
-                    </Box> */}      
-                            
-                        
-                </Box>
+                    />
+
+                </Box> 
+
+                
 
                 <Box
                     display={{xl: 'none'}}
