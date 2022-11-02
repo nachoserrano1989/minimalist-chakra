@@ -7,22 +7,33 @@ export default function Card(props) {
     return (
 
         <Box
-            /* w={{sm: '100%',md: '50%', xl:'calc(100% / 3 - 30px)'}}
-            m={{sm: '0 20px', md: '0', lg: '0 15px'}} */
+            w='100%'
+            display='flex'
         >
             {
-                props.data.info.page.newRecipe.cards.map((item, index) => (
+                props.data.map((item, index) => (
                     
-                    <Box key={index}>
-                        <Image src={item.src} alt={item.title} />
+                    <Box 
+                        key={index}
+                        w={{sm: '100%',md: '50%', xl:'calc(100% / 3 - 30px)'}}
+                        m={{sm: '0 20px', md: '0', lg: '0 15px'}}
+                    >
+                        <Image 
+                            src={item.src} 
+                            alt={item.title} 
+                            cursor='pointer'
+                        />
+                        <Box
+                            display='flex'
+                            justifyContent='center'
+                            m='12px 0'
+                        > 
                         {
                             item.recipesKey.map((item, index) => (
-                                <Box
-                                    key={index}
-                                    display='flex'
-                                >
+                                
                                     <Box 
-                                        bgColor={item.color}
+                                        key={index}
+                                        bgColor={item.bgColor}
                                         borderRadius='20px'
                                         w='32px'
                                         h='32px'
@@ -32,16 +43,23 @@ export default function Card(props) {
                                         <Text
                                             textAlign='center'
                                             pt='3.5px'
-                                            color='white'
+                                            color={item.color}
                                             fontWeight='700'
                                         >
                                             {item.text}
                                         </Text>
                                     </Box> 
-                                </Box>
                                 
                             ))
                         }
+                        </Box>
+                        <Text
+                            textAlign='center'
+                            fontWeight='500'
+                            fontSize='lg'
+                        >
+                            {item.title}
+                        </Text>
                     </Box>
                 ))
             }

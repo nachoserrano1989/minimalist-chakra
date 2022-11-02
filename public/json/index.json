@@ -80,19 +80,23 @@
                 "recipesKey": [
                     {
                         "text": "GF",
-                        "color": "#FFDED6"
+                        "bgColor": "#FFDED6",
+                        "color": "black"
                     },
                     {
                         "text": "V",
-                        "color": "#D56638"
+                        "bgColor": "#D56638",
+                        "color": "white"
                     },
                     {
                         "text": "DF",
-                        "color": "#003811"
+                        "bgColor": "#003811",
+                        "color": "white"
                     },
                     {
                         "text": "NS",
-                        "color": "#2A2B2A"
+                        "bgColor": "#2A2B2A",
+                        "color": "white"
                     }
                 ]
             },
@@ -102,23 +106,28 @@
                 "recipesKey": [
                     {
                         "text": "GF",
-                        "color": "#FFDED6"
+                        "bgColor": "#FFDED6",
+                        "color": "black"
                     },
                     {
                         "text": "VG",
-                        "color": "#F74639"
+                        "bgColor": "#F74639",
+                        "color": "white"
                     },
                     {
                         "text": "V",
-                        "color": "#D56638"
+                        "bgColor": "#D56638",
+                        "color": "white"
                     },
                     {
                         "text": "DF",
-                        "color": "#003811"
+                        "bgColor": "#003811",
+                        "color": "white"
                     },
                     {
                         "text": "NS",
-                        "color": "#2A2B2A"
+                        "bgColor": "#2A2B2A",
+                        "color": "white"
                     }
                 ]
             },
@@ -128,25 +137,83 @@
                 "recipesKey": [
                     {
                         "text": "GF",
-                        "color": "#FFDED6"
+                        "bgColor": "#FFDED6",
+                        "color": "black"
                     },
                     {
                         "text": "VG",
-                        "color": "#F74639"
+                        "bgColor": "#F74639",
+                        "color": "white"
                     },
                     {
                         "text": "V",
-                        "color": "#D56638"
+                        "bgColor": "#D56638",
+                        "color": "white"
                     },
                     {
                         "text": "DF",
-                        "color": "#003811"
+                        "bgColor": "#003811",
+                        "color": "white"
                     },
                     {
                         "text": "NS",
-                        "color": "#2A2B2A"
+                        "bgColor": "#2A2B2A",
+                        "color": "white"
                     }
                 ]
+            }
+        ]
+    },
+    "pickWeek": {
+        "title": "PICK OF THE WEEK",
+        "subtitle": "5-Ingredient Salted Caramel Peanut Butter Truffles",
+        "text": "5-Ingredient Peanut Butter Salted Caramel Truffles made with raw vegan caramel, salted peanut butter, and melted dark chocolate. Crunchy on the outside, perfectly creamy and salty-sweet on the inside.",
+        "button": "VIEW RECIPE",
+        "src": "assets/images/truffles.jpg",
+        "alt": "truffles"
+    },
+    "subscribe": {
+        "title": "*Want more deliciousness?",
+        "text": "Subscribe here and we’ll send you an email as new recipes are published AND our fan favorites ebook!",
+        "placeholder": "EMAIL ADDRESS ...",
+        "button": "SUBMIT",
+        "required": "THIS FIELD IS REQUIRED.",
+        "valided": "PLEASE ENTER A VALID EMAIL ADDRESS."
+    },
+    "menuSearch": {
+        "placeholder": "SEARCH MINIMALIST BAKER",
+        "src": "assets/iconos/search.svg",
+        "title": "RECIPE KEY",
+        "recipesKey": [
+            {
+                "icon": "GF",
+                "text": "Gluten-Free",
+                "bgColor": "#FFDED6",
+                "color": "black"
+            },
+            {
+                "icon": "VG",
+                "text": "Vegan",
+                "bgColor": "#F74639",
+                "color": "white"
+            },
+            {
+                "icon": "V",
+                "text": "Vegetarian",
+                "bgColor": "#D56638",
+                "color": "white"
+            },
+            {
+                "icon": "DF",
+                "text": "Dairy-Free",
+                "bgColor": "#003811",
+                "color": "white"
+            },
+            {
+                "icon": "NS",
+                "text": "Naturally Sweetened",
+                "bgColor": "#2A2B2A",
+                "color": "white"
             }
         ]
     }

@@ -33,6 +33,7 @@ const customTheme = extendTheme({
         "7xl": "34px",
         "8xl": "36px",
         "9xl": "38px",
+        "10xl": "42px"
     },
     fonts: {
         

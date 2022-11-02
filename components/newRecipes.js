@@ -1,9 +1,4 @@
 import { Box, Image, Container, List, ListItem, Text, Button } from '@chakra-ui/react';
-import RecipeKeyGF from './recipeKeyGF';
-import RecipeKeyVG from './recipeKeyVG';
-import RecipeKeyV from './recipeKeyV';
-import RecipeKeyDF from './recipeKeyDF';
-import RecipeKeyNS from './recipeKeyNS';
 import Card from './card';
 
 export default function NewRecipes(props) {
@@ -14,6 +9,7 @@ export default function NewRecipes(props) {
 
         <Box 
             w='100%'
+            mb={{sm: '30px'}}
         >
             <Container
                 maxW='1200px'
@@ -97,34 +93,27 @@ export default function NewRecipes(props) {
 
                 
                 <Box
-                    display='flex'
                     w='100%'
-                    minH='593px'
-                    bgColor='RED'
+                    /* minH='593px' */
                 >
-                    <Card 
-                        data={props} 
-                        w={{sm: '100%',md: '50%', xl:'calc(100% / 3 - 30px)'}}
-                        m={{sm: '0 20px', md: '0', lg: '0 15px'}}
-                    />
-
+                    <Card data={props.info.page.newRecipe.cards} />
                 </Box> 
 
                 
 
                 <Box
-                    display={{xl: 'none'}}
+                    /* display={{xl: 'none'}} */
                 >
                     <Box
                         display='flex'
                         justifyContent={{sm: 'center'}}
                         fontWeight='500'
-                        m={{md: '35px auto 0'}}
+                        m={{sm: '0 auto',md: '35px auto 0'}}
                         w='237px'
                         cursor='pointer'
                     >
                         <Text
-                            fontSize={{sm: 'md'}}
+                            fontSize={{sm: 'sm'}}
                             color='#D56638'
                         >
                             SHOW ME EVERYTHING
