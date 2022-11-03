@@ -5,6 +5,7 @@ export default function Subscribe(props) {
 
         <Box
             w='100%'
+            m={{sm: '0 0 60px'}}
         >
             <Container
                 maxW='1200px'

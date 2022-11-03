@@ -216,6 +216,192 @@
                 "color": "white"
             }
         ]
+    },
+    "favoriteRecipes": {
+        "title": "RECENT READER FAVORITES",
+        "list": [
+            {
+                "src": "assets/images/list-favorite-recipes-img1.jpg",
+                "number": "01",
+                "text": "Creamy Tuscan White Beans & Kale Soup (1 Pot)",
+                "recipesKey": [
+                    {
+                        "icon": "GF",
+                        "text": "Gluten-Free",
+                        "bgColor": "#FFDED6",
+                        "color": "black"
+                    },
+                    {
+                        "icon": "VG",
+                        "text": "Vegan",
+                        "bgColor": "#F74639",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "V",
+                        "text": "Vegetarian",
+                        "bgColor": "#D56638",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "DF",
+                        "text": "Dairy-Free",
+                        "bgColor": "#003811",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "NS",
+                        "text": "Naturally Sweetened",
+                        "bgColor": "#2A2B2A",
+                        "color": "white"
+                    }
+                ]
+            },
+            {
+                "src": "assets/images/list-favorite-recipes-img5.jpg",
+                "number": "02",
+                "text": "Cheesy Vegan Pizza Beans (30 Minutes!)",
+                "recipesKey": [
+                    {
+                        "icon": "GF",
+                        "text": "Gluten-Free",
+                        "bgColor": "#FFDED6",
+                        "color": "black"
+                    },
+                    {
+                        "icon": "VG",
+                        "text": "Vegan",
+                        "bgColor": "#F74639",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "V",
+                        "text": "Vegetarian",
+                        "bgColor": "#D56638",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "DF",
+                        "text": "Dairy-Free",
+                        "bgColor": "#003811",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "NS",
+                        "text": "Naturally Sweetened",
+                        "bgColor": "#2A2B2A",
+                        "color": "white"
+                    }
+                ]
+            },
+            {
+                "src": "assets/images/list-favorite-recipes-img4.jpg",
+                "number": "03",
+                "text": "1-Bowl Cowgirl Cookies (Vegan + Gluten-Free)",
+                "recipesKey": [
+                    {
+                        "icon": "GF",
+                        "text": "Gluten-Free",
+                        "bgColor": "#FFDED6",
+                        "color": "black"
+                    },
+                    {
+                        "icon": "VG",
+                        "text": "Vegan",
+                        "bgColor": "#F74639",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "V",
+                        "text": "Vegetarian",
+                        "bgColor": "#D56638",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "DF",
+                        "text": "Dairy-Free",
+                        "bgColor": "#003811",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "NS",
+                        "text": "Naturally Sweetened",
+                        "bgColor": "#2A2B2A",
+                        "color": "white"
+                    }
+                ]
+            },
+            {
+                "src": "assets/images/explore-recipes-img2.jpg",
+                "number": "04",
+                "text": "Pillowy Pumpkin Snickerdoodles (V + GF)",
+                "recipesKey": [
+                    {
+                        "icon": "GF",
+                        "text": "Gluten-Free",
+                        "bgColor": "#FFDED6",
+                        "color": "black"
+                    },
+                    {
+                        "icon": "VG",
+                        "text": "Vegan",
+                        "bgColor": "#F74639",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "V",
+                        "text": "Vegetarian",
+                        "bgColor": "#D56638",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "DF",
+                        "text": "Dairy-Free",
+                        "bgColor": "#003811",
+                        "color": "white"
+                    }
+                ]
+            },
+            {
+                "src": "assets/images/new-recipes-img4.jpg",
+                "number": "05",
+                "text": "Pumpkin Peanut Butter Breakfast Cookies",
+                "recipesKey": [
+                    {
+                        "icon": "GF",
+                        "text": "Gluten-Free",
+                        "bgColor": "#FFDED6",
+                        "color": "black"
+                    },
+                    {
+                        "icon": "VG",
+                        "text": "Vegan",
+                        "bgColor": "#F74639",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "V",
+                        "text": "Vegetarian",
+                        "bgColor": "#D56638",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "DF",
+                        "text": "Dairy-Free",
+                        "bgColor": "#003811",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "NS",
+                        "text": "Naturally Sweetened",
+                        "bgColor": "#2A2B2A",
+                        "color": "white"
+                    }
+                ]
+            }
+        ]
     }
+
+    
     
 }

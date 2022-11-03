@@ -5,12 +5,14 @@ import NewRecipes from '../components/newRecipes';
 import PickWeek from '../components/pickWeek';
 import Subscribe from '../components/subscribe';
 import MenuSearch from '../components/menuSearch';
+import FavoritesRecipes from '../components/favoritesRecipes';
+
 
 export default function Home(props) {
 
     return (
         <Box
-          h='3000px'
+          h='6000px'
         >
             <Header info={props} />
             <Menu info={props} />
@@ -18,6 +20,7 @@ export default function Home(props) {
             <PickWeek info={props} />
             <Subscribe info={props} />
             <MenuSearch info={props} />
+            <FavoritesRecipes info={props} />
         </Box>
     )
 }
