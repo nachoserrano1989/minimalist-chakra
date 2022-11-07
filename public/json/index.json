@@ -400,6 +400,138 @@
                 ]
             }
         ]
+    },
+    "recipeRound": {
+        "title": "RECIPE ROUND-UPS",
+        "icon": "assets/iconos/arrow-right.svg",
+        "cards": [
+            {
+                "src": "assets/images/recipe-rounds-ups-img1.jpg",
+                "title": "Easy Vegan Potato Recipes",
+                "recipesKey": [
+                    {
+                        "icon": "GF",
+                        "text": "Gluten-Free",
+                        "bgColor": "#FFDED6",
+                        "color": "black"
+                    },
+                    {
+                        "icon": "VG",
+                        "text": "Vegan",
+                        "bgColor": "#F74639",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "V",
+                        "text": "Vegetarian",
+                        "bgColor": "#D56638",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "DF",
+                        "text": "Dairy-Free",
+                        "bgColor": "#003811",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "NS",
+                        "text": "Naturally Sweetened",
+                        "bgColor": "#2A2B2A",
+                        "color": "white"
+                    }
+                ]
+            },
+            {
+                "src": "assets/images/recipe-rounds-ups-img2.jpg",
+                "title": "Best Fall Desserts (Vegan + GF)",
+                "recipesKey": [
+                    {
+                        "icon": "GF",
+                        "text": "Gluten-Free",
+                        "bgColor": "#FFDED6",
+                        "color": "black"
+                    },
+                    {
+                        "icon": "VG",
+                        "text": "Vegan",
+                        "bgColor": "#F74639",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "V",
+                        "text": "Vegetarian",
+                        "bgColor": "#D56638",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "DF",
+                        "text": "Dairy-Free",
+                        "bgColor": "#003811",
+                        "color": "white"
+                    }
+                ]
+            },
+            {
+                "src": "assets/images/recipe-rounds-ups-img3.jpg",
+                "title": "12 Best Tempeh Recipes",
+                "recipesKey": [
+                    {
+                        "icon": "GF",
+                        "text": "Gluten-Free",
+                        "bgColor": "#FFDED6",
+                        "color": "black"
+                    },
+                    {
+                        "icon": "VG",
+                        "text": "Vegan",
+                        "bgColor": "#F74639",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "V",
+                        "text": "Vegetarian",
+                        "bgColor": "#D56638",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "DF",
+                        "text": "Dairy-Free",
+                        "bgColor": "#003811",
+                        "color": "white"
+                    }
+                ]
+            },
+            {
+                "src": "assets/images/recipe-rounds-ups-img4.jpg",
+                "title": "20 Cozy Oat Recipes for Fall",
+                "recipesKey": [
+                    {
+                        "icon": "GF",
+                        "text": "Gluten-Free",
+                        "bgColor": "#FFDED6",
+                        "color": "black"
+                    },
+                    {
+                        "icon": "VG",
+                        "text": "Vegan",
+                        "bgColor": "#F74639",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "V",
+                        "text": "Vegetarian",
+                        "bgColor": "#D56638",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "DF",
+                        "text": "Dairy-Free",
+                        "bgColor": "#003811",
+                        "color": "white"
+                    }
+                ]
+            }
+        ]
     }
 
     

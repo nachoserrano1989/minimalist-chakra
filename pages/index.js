@@ -6,6 +6,7 @@ import PickWeek from '../components/pickWeek';
 import Subscribe from '../components/subscribe';
 import MenuSearch from '../components/menuSearch';
 import FavoritesRecipes from '../components/favoritesRecipes';
+import RecipeRound from '../components/recipeRound';
 
 
 export default function Home(props) {
@@ -21,6 +22,7 @@ export default function Home(props) {
             <Subscribe info={props} />
             <MenuSearch info={props} />
             <FavoritesRecipes info={props} />
+            <RecipeRound info={props} />
         </Box>
     )
 }

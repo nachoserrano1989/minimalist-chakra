@@ -3,12 +3,13 @@ export default function FavoritesRecipes(props) {
 
     return (
 
-
         <Box
-            w={{md: '100%'}}
+            maxW={{md: '100%', xl: '70%', '2xl': '1200px'}}
+            m={{'2xl': '0 auto'}}
         >
             <Container
-                maxW='1200px'
+                maxW={{'2xl': '70%'}}
+                m={{'2xl': '0'}}
             >
                 <Box
                     m={{sm: '30px 0 0 0'}}
@@ -59,49 +60,62 @@ export default function FavoritesRecipes(props) {
                         />
                     </Box>
                 </Box>
-                {/* <Box>
+                <Box>
                     {
                         props.info.page.favoriteRecipes.list.map((item, index) => (
                             <Box key={index}
                                 p={{sm: '0 20px', md: '0'}}
                                 display={{md: 'flex'}}
                                 _hover={{bgColor: 'green'}}
-                                justifyContent={{xl: 'space-between'}}
+                                /* justifyContent={{xl: 'space-between'}} */
                             >
-                                <Image 
-                                    src={item.src} 
-                                    alt={item.text}
+                                <Box
                                     w={{sm: '278px', md: '130px'}} 
                                     h={{sm: '278px', md: '130px'}}
                                     m={{sm: '40px auto 10px', md: '10px 0 0'}}
-                                />
-                                <Text
-                                    fontSize={{sm: '6xl'}}
-                                    fontWeight='700'
-                                    textAlign={{sm: 'center'}}
+                                >
+                                    <Image 
+                                        src={item.src} 
+                                        alt={item.text}
+                                        w='100%'
+                                        h='100%'
+                                    />
+                                </Box>
+                                <Box
                                     m={{md: 'auto 30px'}}
                                 >
-                                    {item.number}
-                                </Text>
-                                <Text
-                                    fontSize={{sm: 'xl', md: '2xl'}}
-                                    textAlign={{sm: 'center', md: 'start'}}
-                                    m={{md: 'auto 64px auto 0'}}
-                                    maxW={{md: '255px', md: '470px'}}
+                                    <Text
+                                        fontSize={{sm: '6xl'}}
+                                        fontWeight='700'
+                                        textAlign={{sm: 'center'}}
+                                        
+                                    >
+                                        {item.number}
+                                    </Text>
+                                </Box>
+                                <Box
+                                    m={{md: 'auto 0'}}
+                                    maxW={{md: '255px', md: '260px', lg: '470px', xl: '280px'}}
                                 >
-                                    {item.text}
-                                </Text>
+                                    <Text
+                                        fontSize={{sm: 'xl', md: '2xl'}}
+                                        textAlign={{sm: 'center', md: 'start'}}
+                                    >
+                                        {item.text}
+                                    </Text>
+                                </Box>
+                                
                                 <Box
                                     display={{sm: 'flex'}}
-                                    justifyContent={{sm: 'center'}}
-                                    m={{sm: '10px 0', md: 'auto 0'}}
+                                    justifyContent={{sm: 'center', md: 'end'}}
+                                    m={{sm: '10px 0', md: 'auto 0 auto auto'}}                           
                                 >
                                     {
                                         item.recipesKey.map((item, index) => (
                                             <Box 
                                                 key={index}
                                                 display='flex'
-                                                m={{sm: '0 0 20px'}}
+                                                m={{sm: '0 0 20px', md: '0'}}
                                             >
                                                 <Box
                                                     bgColor={item.bgColor}
@@ -109,7 +123,7 @@ export default function FavoritesRecipes(props) {
                                                     w='32px'
                                                     h='32px'
                                                     cursor='pointer'
-                                                    m={{sm: '0 6px 0 0'}}
+                                                    m={{sm: '0 6px 0 0', xl: '0 10px 0 0'}}
                                                 >
                                                     <Text
                                                         textAlign='center'
@@ -134,15 +148,17 @@ export default function FavoritesRecipes(props) {
                             </Box>
                         ))
                     }
-                </Box> */}
+                </Box>
 
-                <Grid
-                    templateColumns={{sm: 'repeat(1, 1fr)'}}
+                {/* <Grid
+                    templateColumns={{sm: 'repeat(1, 1fr)', md: 'repeat(4, 130px 80px auto 232px)'}}
                 >
                     {
                         props.info.page.favoriteRecipes.list.map((item, index) => (
                             <Box
                                 key={index}
+                                m={{sm: '60px 0'}}
+                                display={{sm: 'flex'}}
                             >
                                 <GridItem>
                                     <Image 
@@ -175,13 +191,14 @@ export default function FavoritesRecipes(props) {
                                 </GridItem>
                                 <GridItem
                                     display={{sm: 'flex'}}
+                                    justifyContent={{sm: 'center'}}
                                 >
                                     {
                                         item.recipesKey.map((item, index) => (
                                             <Box 
                                                 key={index}
                                                 display='flex'
-                                                m={{sm: '0 0 20px'}}
+                                                m={{sm: '10px 0'}}
                                             >
                                                 <Box
                                                     bgColor={item.bgColor}
@@ -217,7 +234,7 @@ export default function FavoritesRecipes(props) {
                         
                     }
                     
-                </Grid>
+                </Grid> */}
             </Container>
         </Box>
     )

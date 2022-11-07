@@ -4,80 +4,88 @@ export default function MenuSearch(props) {
     return (
 
         <Box
-            maxW={{sm: '804px', lg: '100%', xl: '810px'}}
-            p={{sm: '0 16px'}}
+            maxW={{sm: '804px', lg: '100%', xl: '810px', '2xl': '1200px'}}
+            p={{sm: '0 16px', '2xl': '0'}}
+            m={{'2xl': '0 auto'}}
         >
-            <Input 
-                placeholder={props.info.page.menuSearch.placeholder}
-                w='100%'
-                bgImage={props.info.page.menuSearch.src}
-                bgRepeat='no-repeat'
-                bgSize='20px'
-                bgPosition='96% center'
-                p={{sm:' 14px 15px 16px'}}
-                fontSize={{sm: 'sm'}}
-                border='1px solid'
-                borderColor='black'
-                borderRadius='0'
-                h='55px'
-                _placeholder={{color: 'black', fontSize: 'xs'}}
-                m={{md: '40px 0 0'}}
-            />  
-            <Box
-                p={{sm: '42px 32px 46px', md: '72px 32px 66px', xl: '72px 50px 66px'}}
-                borderBottom={{sm: '1px solid black'}}
+            <Container
+                maxW={{'2xl': '70%'}}
+                m={{'2xl': '0'}}
+                p={{'2xl': '0'}}
             >
-                <Text
-                    fontSize={{sm: 'md', md: 'xl'}}
-                    fontWeight='500'
-                    textAlign='center'
-                    m={{sm: '0 0 24px'}}
-                >
-                    {props.info.page.menuSearch.title}
-                </Text>
-
+                <Input 
+                    placeholder={props.info.page.menuSearch.placeholder}
+                    w='100%'
+                    bgImage={props.info.page.menuSearch.src}
+                    bgRepeat='no-repeat'
+                    bgSize='20px'
+                    bgPosition='96% center'
+                    p={{sm:' 14px 15px 16px'}}
+                    fontSize={{sm: 'sm'}}
+                    border='1px solid'
+                    borderColor='black'
+                    borderRadius='0'
+                    h='55px'
+                    _placeholder={{color: 'black', fontSize: 'xs'}}
+                    m={{md: '40px 0 0'}}
+                />  
                 <Box
-                    display={{md: 'flex'}}
-                    flexWrap={{md: 'wrap'}}
-                    justifyContent={{md: 'center'}}
+                    p={{sm: '42px 32px 46px', md: '72px 32px 66px', xl: '72px 50px 66px'}}
+                    borderBottom={{sm: '1px solid black'}}
                 >
-                    {
-                        props.info.page.menuSearch.recipesKey.map((item, index) => (
-                            <Box 
-                                key={index}
-                                display='flex'
-                                m={{sm: '0 0 20px', md: '0 0 20px 14px'}}
-                            >
-                                <Box
-                                    bgColor={item.bgColor}
-                                    borderRadius='20px'
-                                    w='32px'
-                                    h='32px'
-                                    cursor='pointer'
-                                    /* ml='14px' */
-                                    m={{sm: '0 6px 0 0'}}
+                    <Text
+                        fontSize={{sm: 'md', md: 'xl'}}
+                        fontWeight='500'
+                        textAlign='center'
+                        m={{sm: '0 0 24px'}}
+                    >
+                        {props.info.page.menuSearch.title}
+                    </Text>
+
+                    <Box
+                        display={{md: 'flex'}}
+                        flexWrap={{md: 'wrap'}}
+                        justifyContent={{md: 'center'}}
+                    >
+                        {
+                            props.info.page.menuSearch.recipesKey.map((item, index) => (
+                                <Box 
+                                    key={index}
+                                    display='flex'
+                                    m={{sm: '0 0 20px', md: '0 0 20px 14px'}}
                                 >
-                                    <Text
-                                        textAlign='center'
-                                        pt='3.5px'
-                                        color={item.color}
-                                        fontWeight='700'
-                                        alignItems='center'
+                                    <Box
+                                        bgColor={item.bgColor}
+                                        borderRadius='20px'
+                                        w='32px'
+                                        h='32px'
+                                        cursor='pointer'
+                                        /* ml='14px' */
+                                        m={{sm: '0 6px 0 0'}}
                                     >
-                                        {item.icon}
+                                        <Text
+                                            textAlign='center'
+                                            pt='3.5px'
+                                            color={item.color}
+                                            fontWeight='700'
+                                            alignItems='center'
+                                        >
+                                            {item.icon}
+                                        </Text>
+                                    </Box>
+                                    <Text
+                                        m={{sm: '3px 0 0'}}
+                                    >
+                                        {item.text}
                                     </Text>
                                 </Box>
-                                <Text
-                                    m={{sm: '3px 0 0'}}
-                                >
-                                    {item.text}
-                                </Text>
-                            </Box>
-                            
-                        ))
-                    }
+                                
+                            ))
+                        }
+                    </Box>
                 </Box>
-            </Box>
+            </Container>
+            
         </Box>
     )
 }
