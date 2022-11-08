@@ -7,13 +7,15 @@ import Subscribe from '../components/subscribe';
 import MenuSearch from '../components/menuSearch';
 import FavoritesRecipes from '../components/favoritesRecipes';
 import RecipeRound from '../components/recipeRound';
+import ExploreRecipes from '../components/exploreRecipes';
+import Shop from '../components/shop';
 
 
 export default function Home(props) {
 
     return (
         <Box
-          h='6000px'
+          h='15000px'
         >
             <Header info={props} />
             <Menu info={props} />
@@ -23,6 +25,8 @@ export default function Home(props) {
             <MenuSearch info={props} />
             <FavoritesRecipes info={props} />
             <RecipeRound info={props} />
+            <ExploreRecipes info={props} />
+            <Shop info={props} />
         </Box>
     )
 }

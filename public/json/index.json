@@ -532,8 +532,70 @@
                 ]
             }
         ]
+    },
+    "exploreRecipes": {
+        "title": "Explore Recipes",
+        "logo": "assets/images/brandmark.png",
+        "menu": [
+            {
+                "button": "SWEET (DESERT)",
+                "color": "#D56638"
+            },
+            {
+                "button": "ENTREE",
+                "color": "#003811"
+            },
+            {
+                "button": "SNACKS",
+                "color": "#F74639"
+            },
+            {
+                "button": "HELPFUL HOW-TOS",
+                "color": "#2A2B2A"
+            }
+        ],
+        "cards": [
+            {
+                "src": "assets/images/explore1.jpg",
+                "title": "Mixed Berry Crumble Pie (Vegan + GF)"
+            },
+            {
+                "src": "assets/images/explore2.jpg",
+                "title": "Flaky Gluten-Free Pie Crust (Vegan)"
+            },
+            {
+                "src": "assets/images/explore3.jpg",
+                "title": "Ridiculously Good Snickers Energyy Bites"
+            },
+            {
+                "src": "assets/images/explore4.jpg",
+                "title": "Easy Halloween Desserts"
+            },
+            {
+                "src": "assets/images/explore5.jpg",
+                "title": "Fluffy Chocolate Peanut Butter Cupcakes (Vegan + GF)"
+            },
+            {
+                "src": "assets/images/explore6.jpg",
+                "title": "Best Fall Dessets (Vegan + GF)"
+            },
+            {
+                "src": "assets/images/explore-recipes-img1.jpg",
+                "title": "Mixed Berry Crumble Pie (Vegan + GF)"
+            },
+            {
+                "src": "assets/images/explore-recipes-img2.jpg",
+                "title": "Pillowy Pumpkin Snickerdoodles (V + GF)"
+            }
+        ]
+    },
+    "shop": {
+        "background": "assets/images/shop-bg.jpg",
+        "logo": "assets/images/brandmark.png",
+        "title": "SHOP",
+        "text": "Curious what equipment and pantry staples we love? Check out our shop, where we share our go-to and recommend appliances, ingredients, tools, and more!",
+        "button": "SHOP OUR RECOMENDATIONS",
+        "icon": "assets/iconos/arrow-right.svg"
     }
-
-    
-    
+       
 }

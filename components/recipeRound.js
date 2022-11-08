@@ -1,11 +1,11 @@
-import { Box, Image, Container, Text} from '@chakra-ui/react';
+import { Box, Image, Container, Text, Img} from '@chakra-ui/react';
 export default function RecipeRound(props) {
 
     return (
 
         <Box
             borderTop='1px solid black'
-            m={{sm: '0 10px'}}
+            m={{sm: '0 15px', xl: '0 auto'}}
             p={{sm: '30px 0 0'}}
             maxW='1200px'
         >
@@ -44,20 +44,23 @@ export default function RecipeRound(props) {
                 </Box>
                 <Box
                     display={{md: 'flex'}}
-                    /* flexWrap={{md: 'wrap'}} */
+                    flexWrap={{md: 'wrap'}}
+                    gap={{md: '50px', lg: '15px'}}
+                    justifyContent={{md: 'center'}}
                 >
                     {
                         props.info.page.recipeRound.cards.map((item, index) => (
 
                             <Box 
                                 key={index}
-                                m={{sm: '20px 0 40px'}}
+                                m={{sm: '20px 0 40px', md: '20px 0'}}
+                                w={{md: '216px', lg: '227.5px', xl: '268px'}}
                             >
                                 <Image 
                                     src={item.src} 
                                     alt={item.title} 
-                                    w={{sm: '328px', md: '216px'}}
-                                    h={{sm: '492px', md: '324px'}}
+                                    w={{sm: '328px', md: '216px', lg: '100%', xl: '100%'}}
+                                    h={{sm: '492px', md: '324px', lg: '341px', xl: '402px'}}
                                     m={{sm: '0 auto'}}
                                 />
                                 <Box
@@ -70,6 +73,7 @@ export default function RecipeRound(props) {
                                             <Box 
                                                 key={index}
                                                 display='flex'
+                                                m={{md: '10px 0'}}
                                             >
                                                 <Box
                                                     bgColor={item.bgColor}
@@ -96,7 +100,7 @@ export default function RecipeRound(props) {
                                 </Box>
                                 <Text
                                     textAlign='center'
-                                    fontSize={{sm: 'md'}}
+                                    fontSize={{sm: 'md', lg: 'xl'}}
                                     fontWeight='500'
                                 >
                                     {item.title}
