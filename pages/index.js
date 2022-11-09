@@ -9,6 +9,7 @@ import FavoritesRecipes from '../components/favoritesRecipes';
 import RecipeRound from '../components/recipeRound';
 import ExploreRecipes from '../components/exploreRecipes';
 import Shop from '../components/shop';
+import SocialNetwork from '../components/socialNetworks';
 
 
 export default function Home(props) {
@@ -27,6 +28,7 @@ export default function Home(props) {
             <RecipeRound info={props} />
             <ExploreRecipes info={props} />
             <Shop info={props} />
+            <SocialNetwork info={props} />
         </Box>
     )
 }

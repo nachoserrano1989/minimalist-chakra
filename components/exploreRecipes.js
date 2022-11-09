@@ -6,6 +6,7 @@ export default function ExploreRecipes(props) {
         <Box
             maxW='1200px'
             p={{sm: '50px 0 0 0'}}
+            m='0 auto'
         >
             <Container
                 maxW='100%'

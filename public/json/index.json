@@ -596,6 +596,34 @@
         "text": "Curious what equipment and pantry staples we love? Check out our shop, where we share our go-to and recommend appliances, ingredients, tools, and more!",
         "button": "SHOP OUR RECOMENDATIONS",
         "icon": "assets/iconos/arrow-right.svg"
+    },
+    "socialNetwork": {
+        "background": "https://minimalistbaker.com/wp-content/themes/mb-2020/assets/images/subscribe-box-background.png",
+        "left": {
+            "src": "https://minimalistbaker.com/wp-content/themes/mb-2020/assets/images/fan-favorites-ebook.png",
+            "title": "WANT MORE DELICIOUSNESS?",
+            "subtitle": "Subscribe here and we'll send you an email as new recipes are published.",
+            "text": "As a thank you, we'd also love to send you our fan favorites ebook!",
+            "placeholder": "EMAIL ADDRESS...",
+            "button": "GET MY EBOOK!"
+        },
+        "right": {
+            "title": "FIND US ELSEWHERE",
+            "title2": "@MINIMALISTBAKER",
+            "socialNetwork": [
+                {
+                    "title": "INSTAGRAM",
+                    "followers": "2.1m"
+                },
+                {
+                    "title": "PINTEREST",
+                    "followers": "368K"
+                },
+                {
+                    "title": "FACEBOOK",
+                    "followers": "499k"
+                }
+            ]
+        }
     }
-       
 }
