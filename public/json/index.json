@@ -598,7 +598,7 @@
         "icon": "assets/iconos/arrow-right.svg"
     },
     "socialNetwork": {
-        "background": "https://minimalistbaker.com/wp-content/themes/mb-2020/assets/images/subscribe-box-background.png",
+        "background": "assets/images/socialNetwork-bg.png",
         "left": {
             "src": "https://minimalistbaker.com/wp-content/themes/mb-2020/assets/images/fan-favorites-ebook.png",
             "title": "WANT MORE DELICIOUSNESS?",
@@ -613,17 +613,81 @@
             "socialNetwork": [
                 {
                     "title": "INSTAGRAM",
-                    "followers": "2.1m"
+                    "followers": "2.1m",
+                    "color": "#D56638"
                 },
                 {
                     "title": "PINTEREST",
-                    "followers": "368K"
+                    "followers": "368K",
+                    "color": "#FFDED6"
                 },
                 {
                     "title": "FACEBOOK",
-                    "followers": "499k"
+                    "followers": "499k",
+                    "color": "#D56638"
                 }
             ]
+        }
+    },
+    "footer": {
+        "top": {
+            "left": {
+                "text": "FIND US",
+                "icons": [
+                    {
+                        "src": "assets/iconos/facebook.svg",
+                        "alt": "facebook"
+                    },
+                    {
+                        "src": "assets/iconos/instagram.svg",
+                        "alt": "instagram"
+                    },
+                    {
+                        "src": "assets/iconos/pinterest.svg",
+                        "alt": "pinterest"
+                    },
+                    {
+                        "src": "assets/iconos/twitter.svg",
+                        "alt": "twitter"
+                    },
+                    {
+                        "src": "assets/iconos/youtube.svg",
+                        "alt": "youtube"
+                    }
+                ]
+            },
+            "center": {
+                "src": "assets/images/brandmark.png",
+                "alt": "brandmark"
+            },
+            "right": {
+                "text1": "Simple Recipes That",
+                "text2": "Make You Feel Good"
+            }
+        },
+        "bottom": {
+            "menu": [
+                {
+                    "text": "Recipes"
+                },
+                {
+                    "text": "Cookbook"
+                },
+                {
+                    "text": "Shop"
+                },
+                {
+                    "text": "Jobs"
+                },
+                {
+                    "text": "About"
+                }
+            ],
+            "subMenu": {
+                "email": "©MINIMALISTBAKER.COM",
+                "privacy": "PRIVACY POLICY",
+                "terms": "TERMS"
+            }
         }
     }
 }

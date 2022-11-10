@@ -10,6 +10,7 @@ import RecipeRound from '../components/recipeRound';
 import ExploreRecipes from '../components/exploreRecipes';
 import Shop from '../components/shop';
 import SocialNetwork from '../components/socialNetworks';
+import Footer from '../components/footer';
 
 
 export default function Home(props) {
@@ -29,6 +30,7 @@ export default function Home(props) {
             <ExploreRecipes info={props} />
             <Shop info={props} />
             <SocialNetwork info={props} />
+            <Footer info={props} />
         </Box>
     )
 }
