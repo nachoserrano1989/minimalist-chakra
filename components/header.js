@@ -7,7 +7,7 @@ export default function Header(props) {
     return (
         <Box
             w='100%'
-            h={{sm: '45px', md: '46px', xl: '49.5px'}}
+            h={{sm: '49px', md: '51.5px', xl: '49.5px'}}
             bgColor='#FFDED6'
         >
             <Container
@@ -44,9 +44,9 @@ export default function Header(props) {
                 <Box
                     display='flex'
                     h='24px'
-                    m={{sm: '13px 0 0 0', md: '15px 0 0 0'}}
+                    m={{sm: '14px 0 0 0', md: '15px 0 0 0'}}
                     justifyContent='space-between'
-                    w={{sm: '184px', lg: '186px'}}
+                    w={{sm: '205px', lg: '186px'}}
                     float='right'
                 >
                     {
@@ -56,7 +56,7 @@ export default function Header(props) {
                                 alt={item.alt} 
                                 key={index} 
                                 w={{sm: '24px', lg: '25px'}}
-                                h={{sm: '21px', lg: '22px'}}
+                                h={{sm: '24px', lg: '22px'}}
                                 _hover={{opacity: '0.7'}}
                                 cursor='pointer'
                             />    

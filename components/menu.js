@@ -46,6 +46,7 @@ export default function Menu(props) {
                                         key={index}
                                         p={{xl: '13px 14px'}}
                                         fontSize={{xl: 'sm'}}
+                                        cursor='pointer'
                                     >
                                         {item.text}
                                     </ListItem>
@@ -64,6 +65,7 @@ export default function Menu(props) {
                             w={{sm: '76%', xl:'100%'}}
                             h={{sm: '100%'}}
                             m={{sm: '0 auto'}}
+                            cursor='pointer'
                         />
                     </Box>
                     <Box
@@ -92,6 +94,7 @@ export default function Menu(props) {
                                         key={index}
                                         p={{xl: '13px 14px'}}
                                         fontSize={{xl: 'sm'}}
+                                        cursor='pointer'
                                     >
                                         {item.text}
                                     </ListItem>

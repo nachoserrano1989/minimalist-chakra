@@ -1,4 +1,5 @@
 import { Box, Image, Container, List, ListItem, Text, Button } from '@chakra-ui/react';
+import Carousel from 'better-react-carousel';
 import Card from './card';
 
 export default function NewRecipes(props) {
@@ -94,10 +95,74 @@ export default function NewRecipes(props) {
                 
                 <Box
                     w='100%'
-                    /* minH='593px' */
+                    display={{sm: 'none', xl: 'block'}}
                 >
                     <Card data={props.info.page.newRecipe.cards} />
                 </Box> 
+
+                <Box
+                    w='100%'
+                    display={{xl: 'none'}}
+                >
+                    <Carousel
+                        loop
+                        autoplay={'1000ms'}
+                        cols={2}
+                        
+                    >
+                        {
+                            props.info.page.newRecipe.cards.map((item, index) => (
+                                <Carousel.Item 
+                                    key={index}
+                                >
+                                    <Image 
+                                        src={item.src} 
+                                        alt={item.alt}
+                                        w='100%' 
+                                    />
+                                    <Box
+                                        display='flex'
+                                        justifyContent='center'
+                                        m='12px 0'
+                                    >
+                                        {
+                                            item.recipesKey.map((item, index) => (
+                                                <Box 
+                                                    key={index}
+                                                    bgColor={item.bgColor}
+                                                    borderRadius='20px'
+                                                    w='32px'
+                                                    h='32px'
+                                                    cursor='pointer'
+                                                    ml='14px'
+                                                    _hover={{bgColor: 'blue'}}
+                                                >
+                                                    <Text
+                                                        textAlign='center'
+                                                        pt='3.5px'
+                                                        color={item.color}
+                                                        fontWeight='700'
+                                                    >
+                                                        {item.text}
+                                                    </Text>
+                                                </Box>
+                                            ))
+                                        }
+                                    </Box>
+                                    <Text
+                                        textAlign='center'
+                                        fontWeight='500'
+                                        fontSize='lg'
+                                        _hover={{color: '#D56638'}}
+                                        cursor='pointer'
+                                    >
+                                        {item.title}
+                                    </Text>
+                                </Carousel.Item>
+                            ))
+                        }
+                    </Carousel>
+                </Box>
 
                 
 

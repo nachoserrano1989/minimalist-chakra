@@ -44,6 +44,7 @@ export default function Footer(props) {
                                             alt={item.alt} 
                                             w={{sm: '18px'}}
                                             h={{sm: '18px'}}
+                                            cursor='pointer'
                                         />
                                     </Box>
                                 ))
@@ -55,6 +56,7 @@ export default function Footer(props) {
                         alt={props.info.page.footer.top.center.alt}
                         w={{sm: '80px'}}
                         m={{sm: '33px auto'}}
+                        cursor='pointer'
                     />
                     <Box>
                         <Text

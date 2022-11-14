@@ -83,6 +83,7 @@ export default function SocialNetwork(props) {
                             fontSize={{sm: 'md'}}
                             fontWeight='500'
                             /* maxW={{lg: '400px'}} */
+                            _hover={{bgColor: '#D56638'}}
                         >
                             {props.info.page.socialNetwork.left.button}
                         </Box>
@@ -121,10 +122,12 @@ export default function SocialNetwork(props) {
                                     m={{sm: '0 0 30px 0'}}
                                     p={{sm: '0 0 5px 0'}}
                                     w={{md: 'calc(33.3% - 16px)'}}
+                                    _hover={{color: '#D56638'}}
                                 >
                                     <Text
                                         fontFamily={{sm: 'xs'}}
                                         fontWeight='700'
+                                        
                                     >
                                         {item.title}
                                     </Text>
@@ -132,6 +135,8 @@ export default function SocialNetwork(props) {
                                         fontSize={{sm: '5xl'}}
                                         fontWeight='700'
                                         lineHeight='30px'
+                                        m={{'2xl': '0 0 3px 0'}}
+                                        
                                     >
                                         {item.followers}
                                     </Text>

@@ -20,7 +20,7 @@ export default function Subscribe(props) {
                 <Text
                     color='#FFDED6'
                     fontSize={{sm: 'xl', md: '3xl'}}
-                    m={{sm: '0 0 16px', xl: '0 50px 16px 0'}}
+                    m={{sm: '0 0 16px', xl: '0 50px 16px 0', '2xl': '0 20px 16px 0'}}
                     fontWeight={{md: '500'}}
                     maxW={{xl: '180px'}}
                 >
@@ -29,8 +29,8 @@ export default function Subscribe(props) {
                 <Text
                     color='white'
                     fontSize={{sm: 'md', md: '19px'}}
-                    m={{sm: '0 0 16px', xl: '0 50px 16px'}}
-                    maxW={{xl: '330px'}}
+                    m={{sm: '0 0 16px', xl: '0 50px 16px', '2xl': '0 30px 16px'}}
+                    maxW={{xl: '330px', '2xl': '430px'}}
                 >
                     {props.info.page.subscribe.text}
                 </Text>
@@ -45,13 +45,14 @@ export default function Subscribe(props) {
                         p={{sm: '20px'}}
                         borderRadius='0'
                         h={{sm: '60px'}}
-                        w={{xl: '400px'}}
+                        w={{xl: '400px', '2xl': '300px'}}
                     />
                     <Button
                         borderRadius='0'
                         p={{sm: '20px', md: '20px 27.5px'}}
                         bgColor='#FFDED6'
                         h={{sm: '60px'}}
+                        _hover={{bgColor: 'red'}}
                     >
                         {props.info.page.subscribe.button}
                     </Button>

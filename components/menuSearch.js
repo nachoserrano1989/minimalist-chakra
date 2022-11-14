@@ -69,12 +69,15 @@ export default function MenuSearch(props) {
                                             color={item.color}
                                             fontWeight='700'
                                             alignItems='center'
+                                            cursor='pointer'
                                         >
                                             {item.icon}
                                         </Text>
                                     </Box>
                                     <Text
                                         m={{sm: '3px 0 0'}}
+                                        _hover={{borderBottom: '1px solid black'}}
+                                        cursor='pointer'
                                     >
                                         {item.text}
                                     </Text>

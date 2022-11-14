@@ -39,12 +39,14 @@ export default function Card(props) {
                                         h='32px'
                                         cursor='pointer'
                                         ml='14px'
+                                        _hover={{bgColor: 'blue'}}
                                     >
                                         <Text
                                             textAlign='center'
                                             pt='3.5px'
                                             color={item.color}
                                             fontWeight='700'
+                                            
                                         >
                                             {item.text}
                                         </Text>
@@ -57,6 +59,8 @@ export default function Card(props) {
                             textAlign='center'
                             fontWeight='500'
                             fontSize='lg'
+                            _hover={{color: '#D56638'}}
+                            cursor='pointer'
                         >
                             {item.title}
                         </Text>

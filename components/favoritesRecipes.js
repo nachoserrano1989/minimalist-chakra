@@ -6,6 +6,7 @@ export default function FavoritesRecipes(props) {
         <Box
             maxW={{md: '100%', xl: '70%', '2xl': '1200px'}}
             m={{'2xl': '0 auto'}}
+            p={{sm: '0 0 60px'}}
         >
             <Container
                 maxW={{'2xl': '70%'}}
@@ -33,30 +34,35 @@ export default function FavoritesRecipes(props) {
                             alt='star' 
                             w={{sm: '26px'}}
                             h={{sm:'26px'}}
+                            cursor='pointer'
                         />
                         <Image 
                             src="assets/iconos/star.svg" 
                             alt='star' 
                             w={{sm: '26px'}}
                             h={{sm:'26px'}}
+                            cursor='pointer'
                         />
                         <Image 
                             src="assets/iconos/star.svg" 
                             alt='star' 
                             w={{sm: '26px'}}
                             h={{sm:'26px'}}
+                            cursor='pointer'
                         />
                         <Image 
                             src="assets/iconos/star.svg" 
                             alt='star' 
                             w={{sm: '26px'}}
                             h={{sm:'26px'}}
+                            cursor='pointer'
                         />
                         <Image 
                             src="assets/iconos/star.svg" 
                             alt='star' 
                             w={{sm: '26px'}}
                             h={{sm:'26px'}}
+                            cursor='pointer'
                         />
                     </Box>
                 </Box>
@@ -68,11 +74,13 @@ export default function FavoritesRecipes(props) {
                                 display={{md: 'flex'}}
                                 _hover={{bgColor: 'green'}}
                                 /* justifyContent={{xl: 'space-between'}} */
+                                m={{sm: '40px auto 0', md: '10px 0 0'}}
+                                cursor='pointer'
                             >
                                 <Box
                                     w={{sm: '278px', md: '130px'}} 
                                     h={{sm: '278px', md: '130px'}}
-                                    m={{sm: '40px auto 10px', md: '10px 0 0'}}
+                                    /* m={{sm: '40px auto 10px', md: '10px 0 0'}} */
                                 >
                                     <Image 
                                         src={item.src} 

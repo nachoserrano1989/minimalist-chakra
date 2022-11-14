@@ -6,7 +6,7 @@ export default function ExploreRecipes(props) {
         <Box
             maxW='1200px'
             p={{sm: '50px 0 0 0'}}
-            m='0 auto'
+            m='0 auto 40px'
         >
             <Container
                 maxW='100%'
@@ -37,11 +37,12 @@ export default function ExploreRecipes(props) {
                             <Box 
                                 key={index}
                                 w={{sm: '100%', md: 'calc(50% - 5px)'}}
-                                borderColor={item.color}
-                                border={{sm: '2px'}}
+                                border={{sm: '2px solid'}}
+                                /* borderColor={item.color} */
                                 m={{sm: '0 0 8px 0'}}
                                 p={{sm: '5px'}}
                                 fontWeight='500'
+                                cursor='pointer'
                             >
                                 <Text
                                     color={item.color}
@@ -70,12 +71,15 @@ export default function ExploreRecipes(props) {
                                     alt={item.title} 
                                     w={{sm:'100%'}}
                                     m={{sm: '0 0 5px 0'}}
+                                    cursor='pointer'
                                 />
                                 <Text
                                     fontWeight='500'
                                     textAlign='center'
                                     fontSize={{sm: 'lg'}}
                                     lineHeight={{sm: '25px'}}
+                                    _hover={{color: '#D56638'}}
+                                    cursor='pointer'
                                 >
                                     {item.title}</Text>
                             </Box>

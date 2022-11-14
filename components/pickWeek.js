@@ -54,6 +54,7 @@ export default function PickWeek(props) {
                             bgColor='transparent'
                             lineHeight='103.4px'
                             h={{sm: '56px',md: '60px'}}
+                            _hover={{bgColor: '#FFDED6', border: 'none'}}
                         >
                             {props.info.page.pickWeek.button}
                         </Button>
@@ -67,6 +68,7 @@ export default function PickWeek(props) {
                             alt={props.info.page.pickWeek.alt} 
                             h='100%'
                             w='100%'
+                            cursor='pointer'
                         />
                     </Box>
                 </Box>

@@ -16,6 +16,7 @@ export default function RecipeRound(props) {
                 <Box
                     display={{md: 'flex'}}
                     justifyContent={{md: 'space-between'}}
+                    
                 >
                     <Text
                         fontSize={{sm: '2xl'}}
@@ -26,10 +27,12 @@ export default function RecipeRound(props) {
                     </Text>
                     <Box
                         display={{sm: 'none', md: 'flex'}}
+                        cursor='pointer'
                     >
                         <Text
                             fontSize={{md: 'sm'}}
                             fontWeight='500'
+                            _hover={{color: '#D56638'}}
                         >
                             SHOW ME EVERYTHING
                         </Text>
@@ -102,6 +105,8 @@ export default function RecipeRound(props) {
                                     textAlign='center'
                                     fontSize={{sm: 'md', lg: 'xl'}}
                                     fontWeight='500'
+                                    _hover={{color: '#D56638'}}
+                                    cursor='pointer'
                                 >
                                     {item.title}
                                 </Text>
