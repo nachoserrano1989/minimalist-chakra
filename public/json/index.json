@@ -689,5 +689,80 @@
                 "terms": "TERMS"
             }
         }
+    },
+    "about": {
+        "welcome": {
+            "src": "assets/images/bg-welcome.jpg",
+            "logo": "assets/images/brandmark.png",
+            "title": "WELCOME , EVERYONE !",
+            "subtitle": "All eaters are welcome.",
+            "text1": "Whether you’re new to Minimalist Baker or have been around for a while, we’re so glad you’re here.",
+            "text2": "All of our recipes fall into at least one of these three simple categories:",
+            "list": [
+                {
+                    "text": "10 Ingredients or Less",
+                    "color": "#F74639"
+                },
+                {
+                    "text": "1 -Bowl",
+                    "color": "#003811"
+                },
+                {
+                    "text": "30 Minutes or Less to Prepare",
+                    "color": "#D56638"
+                }
+            ]
+        },
+        "subscribe": {
+            "title": "*Want more deliciousness?",
+            "text": "Subscribe here and we’ll send you an email as new recipes are published AND our fan favorites ebook!",
+            "placeholder": "EMAIL ADDRESS ...",
+            "button": "SUBMIT",
+            "required": "THIS FIELD IS REQUIRED.",
+            "valided": "PLEASE ENTER A VALID EMAIL ADDRESS."
+        },
+        "dietary": {
+            "left": {
+                "src": "assets/images/bg-dietary.jpg"
+            },
+            "right": {
+                "title": "OUR ICON SYSTEM TO HELP YOU IDENTIFY",
+                "subtitle": "DIETARY NEEDS",
+                "recipesKey": [
+                    {
+                        "icon": "GF",
+                        "text": "Gluten-Free",
+                        "bgColor": "#FFDED6",
+                        "color": "black"
+                    },
+                    {
+                        "icon": "VG",
+                        "text": "Vegan",
+                        "bgColor": "#F74639",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "V",
+                        "text": "Vegetarian",
+                        "bgColor": "#D56638",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "DF",
+                        "text": "Dairy-Free",
+                        "bgColor": "#003811",
+                        "color": "white"
+                    },
+                    {
+                        "icon": "NS",
+                        "text": "Naturally Sweetened",
+                        "bgColor": "#2A2B2A",
+                        "color": "white"
+                    }
+                ],
+                "text": "In the past, we’ve shared many plant-based recipes. And as our team grows, you’ll see our recipes represent more dietary preferences, tastes, and needs. We still love creating plant-based recipes that are nourishing, simple, and delicious. And now some will feature meat or eggs. We also love making classic desserts and baked goods into undetectably gluten-free versions!",
+                "nota": "*We don’t count water or “optional” ingredients toward the 10 ingredient count. And we typically count “salt and pepper” as one ingredient."
+            }
+        }
     }
 }

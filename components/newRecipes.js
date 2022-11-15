@@ -105,10 +105,26 @@ export default function NewRecipes(props) {
                     display={{xl: 'none'}}
                 >
                     <Carousel
-                        loop
+                        loop={true}
                         autoplay={'1000ms'}
                         cols={2}
-                        
+                        gap={30.5}
+                        /* [
+                            {
+                                breakpoint: 768,
+                                cols: 2,
+                                gap: 0,
+                                loop: true,
+                                autoplay: 1000
+                            },
+                            {
+                                breakpoint: 990,
+                                cols: 2,
+                                gap: 20,
+                                loop: true,
+                                autoplay: 1000
+                            }
+                        ] */
                     >
                         {
                             props.info.page.newRecipe.cards.map((item, index) => (
