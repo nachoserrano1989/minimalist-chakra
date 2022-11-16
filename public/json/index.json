@@ -713,19 +713,30 @@
                 }
             ]
         },
-        "subscribe": {
-            "title": "*Want more deliciousness?",
-            "text": "Subscribe here and we’ll send you an email as new recipes are published AND our fan favorites ebook!",
-            "placeholder": "EMAIL ADDRESS ...",
-            "button": "SUBMIT",
-            "required": "THIS FIELD IS REQUIRED.",
-            "valided": "PLEASE ENTER A VALID EMAIL ADDRESS."
-        },
         "dietary": {
             "left": {
-                "src": "assets/images/bg-dietary.jpg"
-            },
-            "right": {
+                "text1": "Expect new recipes weekly",
+                "text2": ", with a mix of savory and sweet including ",
+                "list": [
+                    {
+                        "text": " desserts"
+                    },
+                    {
+                        "text": "breakfast"
+                    },
+                    {
+                        "text": "entrées"
+                    },
+                    {
+                        "text": "sides"
+                    },
+                    {
+                        "text": "snacks"
+                    }
+                ],
+                "text3": "and more(",
+                "text4": "find all recipes here",
+                "text5": "). When you make one of our recipes we want you to say, “How was it that simple but still tastes that good?!”",
                 "title": "OUR ICON SYSTEM TO HELP YOU IDENTIFY",
                 "subtitle": "DIETARY NEEDS",
                 "recipesKey": [
@@ -762,7 +773,42 @@
                 ],
                 "text": "In the past, we’ve shared many plant-based recipes. And as our team grows, you’ll see our recipes represent more dietary preferences, tastes, and needs. We still love creating plant-based recipes that are nourishing, simple, and delicious. And now some will feature meat or eggs. We also love making classic desserts and baked goods into undetectably gluten-free versions!",
                 "nota": "*We don’t count water or “optional” ingredients toward the 10 ingredient count. And we typically count “salt and pepper” as one ingredient."
+            },
+            "right": {
+                "src": "assets/images/bg-dietary.jpg"
             }
+        },
+        "resources": {
+            "logo": "assets/images/brandmark.png",
+            "title": "does 'baker' mean only dessert?",
+            "text": "While there’s always been a love for sweet things, Minimalist Baker is about much more. We love our hearty entrées as much as we love our decadent desserts. Whether you have dietary restrictions or not, we hope you’ll find something you love here. Find all of our recipes here.",
+            "images": [
+                {
+                    "src": "assets/images/resources-img1.jpg"
+                },
+                {
+                    "src": "assets/images/resources-img2.jpg"
+                },
+                {
+                    "src": "assets/images/resources-img3.jpg"
+                },
+                {
+                    "src": "assets/images/resources-img4.jpg"
+                }
+            ],
+            "title2": "cooking resources",
+            "text2": "Check out our Shop to see what’s in our kitchen and pantry. And be sure to check out our fuss-free cooking resources like Juicing Without a Juicer, No-Churn Ice Cream, and Sushi Without a Mat.",
+            "buttons": [
+                {
+                    "text": "HOW TO MAKE A FLAX EGG"
+                },
+                {
+                    "text": "HOW TO MAKE VEGAN PARMESAN CHEESE"
+                },
+                {
+                    "text": "DIY GLUTEN-FREE FLOUR BLEND"
+                }
+            ]
         }
     }
 }

@@ -1,15 +1,21 @@
 import { Box, Image, Text } from '@chakra-ui/react';
+import Dietary from '../components/about/dietary';
 import Welcome from '../components/about/welcome';
 import Header from '../components/header';
 import Menu from '../components/menu';
+import Subscribe from '../components/subscribe';
 export default function About(props) {
 
     return (
 
-        <Box>
+        <Box
+          h='10000px'
+        >
             <Header info={props} />
             <Menu info={props} />
             <Welcome info={props} />
+            <Subscribe info={props} />
+            <Dietary info={props} />
         </Box>
     )
 }
