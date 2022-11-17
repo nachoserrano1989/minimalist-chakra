@@ -695,6 +695,7 @@
             "src": "assets/images/bg-welcome.jpg",
             "logo": "assets/images/brandmark.png",
             "title": "WELCOME , EVERYONE !",
+            "text": "At Minimalist Baker we share simple recipes that require <b> 10 ingredients or less, 1 bowl, or 30 minutes or less to prepare.</b>",
             "subtitle": "All eaters are welcome.",
             "text1": "Whether you’re new to Minimalist Baker or have been around for a while, we’re so glad you’re here.",
             "text2": "All of our recipes fall into at least one of these three simple categories:",
@@ -715,28 +716,7 @@
         },
         "dietary": {
             "left": {
-                "text1": "Expect new recipes weekly",
-                "text2": ", with a mix of savory and sweet including ",
-                "list": [
-                    {
-                        "text": " desserts"
-                    },
-                    {
-                        "text": "breakfast"
-                    },
-                    {
-                        "text": "entrées"
-                    },
-                    {
-                        "text": "sides"
-                    },
-                    {
-                        "text": "snacks"
-                    }
-                ],
-                "text3": "and more(",
-                "text4": "find all recipes here",
-                "text5": "). When you make one of our recipes we want you to say, “How was it that simple but still tastes that good?!”",
+                "text1": "<b>Expect new recipes weekly</b>, with a mix of savory and sweet including <a href=''>desserts</a>, <a href=''>breakfast</a>, <a href=''>entrées</a>, <a href=''>sides</a>, <a href=''>snacks</a>, and more (<a href=''>find all recipes here</a>). When you make one of our recipes we want you to say, “How was it that simple but still tastes that good?!”",
                 "title": "OUR ICON SYSTEM TO HELP YOU IDENTIFY",
                 "subtitle": "DIETARY NEEDS",
                 "recipesKey": [
@@ -780,7 +760,7 @@
         },
         "resources": {
             "logo": "assets/images/brandmark.png",
-            "title": "does 'baker' mean only dessert?",
+            "title": "DOES 'BAKER' MEAN ONLY DESSERTS?",
             "text": "While there’s always been a love for sweet things, Minimalist Baker is about much more. We love our hearty entrées as much as we love our decadent desserts. Whether you have dietary restrictions or not, we hope you’ll find something you love here. Find all of our recipes here.",
             "images": [
                 {
@@ -796,8 +776,8 @@
                     "src": "assets/images/resources-img4.jpg"
                 }
             ],
-            "title2": "cooking resources",
-            "text2": "Check out our Shop to see what’s in our kitchen and pantry. And be sure to check out our fuss-free cooking resources like Juicing Without a Juicer, No-Churn Ice Cream, and Sushi Without a Mat.",
+            "title2": "COOKING RESOURCES",
+            "text2": "Check out our <a href=''>Shop</a> to see what’s in our kitchen and pantry. And be sure to check out our fuss-free cooking resources like <a href=''>Juicing Without a Juicer,</a> <a href=''>No-Churn Ice Cream,</a> and <a href=''>Sushi Without a Mat</a>.",
             "buttons": [
                 {
                     "text": "HOW TO MAKE A FLAX EGG"
@@ -807,6 +787,36 @@
                 },
                 {
                     "text": "DIY GLUTEN-FREE FLOUR BLEND"
+                }
+            ]
+        },
+        "deeper": {
+            "faq": {
+                "text": "<b>Have a question about a recipe?</b> check out our <a href=''>Recipe FAQ!</a>",
+                "src": "assets/iconos/arrow-right.svg"
+            },
+            "title": "DIVE DEEPER",
+            "text": "If you’re hungry for more, check out what else we’ve created:",
+            "cards": [
+                {
+                    "src": "assets/images/deeper-img1.jpg",
+                    "title": "Fan Favorites Ebook",
+                    "text": "A FREE 49-page guide with 20 of our most loved, highly rated recipes, including breakfast, entrées, desserts, and more!"
+                },
+                {
+                    "src": "assets/images/deeper-img2.jpg",
+                    "title": "Minimalist Baker`s Everyday Cooking",
+                    "text": "Our print cookbook with 101 simple, plant-based recipes that’ve never appeared on the blog!"
+                },
+                {
+                    "src": "assets/images/deeper-img3.jpg",
+                    "title": "Blogger Resources",
+                    "text": "Helpful tutorials and guides on starting and running a successful food blog."
+                },
+                {
+                    "src": "assets/images/deeper-img4.jpg",
+                    "title": "Shop",
+                    "text": "Things we keep in our pantry, photography tools, and other recommendations."
                 }
             ]
         }

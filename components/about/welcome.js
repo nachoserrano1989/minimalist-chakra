@@ -24,12 +24,12 @@ export default function Welcome(props) {
                             bgColor='red'
                         >
                             <Image 
-                                src={props.info.page.about.welcome.src} 
+                                src={props.info.src} 
                                 alt='' 
                                 w='100%'
                             />
                             <Image 
-                                src={props.info.page.about.welcome.logo} 
+                                src={props.info.logo} 
                                 alt='logo' 
                                 w={{sm: '45px'}}
                                 position='absolute'
@@ -50,7 +50,7 @@ export default function Welcome(props) {
                             w={{sm: '200px', lg: '100%'}}
                             letterSpacing={{lg: '4px'}}
                         >
-                            {props.info.page.about.welcome.title}
+                            {props.info.title}
                         </Text>
                         <Text
                             fontSize={{sm: '17px', md: '19px'}}
@@ -58,15 +58,15 @@ export default function Welcome(props) {
                             lineHeight={{sm: '30px', lg: '33px'}}
                             w={{sm: '280px', md: '256px', lg: '99%'}}
                             /* bgColor='red' */
+                            dangerouslySetInnerHTML={{__html: props.info.text}}
                         >
-                            At Minimalist Baker we share simple recipes that require 10 ingredients or less, 1 bowl, or 30 minutes or less to prepare.
                         </Text>
                         <Text
                             fontSize={{sm: 'lg', md: '21px', '2xl': '2xl'}}
                             fontWeight={{sm: '500', lg: '700'}}
                             m={{sm: '19.5px 0 22px', md: '76px 0 22px', lg: '23px 0 22px', '2xl': '22px 0 20px'}}
                         >
-                            {props.info.page.about.welcome.subtitle}
+                            {props.info.subtitle}
 
                         </Text>
                         <Text
@@ -74,7 +74,7 @@ export default function Welcome(props) {
                             fontSize={{sm: '17px', md: '19px'}}
                             lineHeight={{sm: '30px', md: '32px', '2xl': '34px'}}
                         >
-                            {props.info.page.about.welcome.text1}
+                            {props.info.text1}
                         </Text>
                     </Box>
                 </Box>
@@ -90,13 +90,13 @@ export default function Welcome(props) {
                         p={{lg: '0 0 0 3px'}}
 
                     >
-                        {props.info.page.about.welcome.text2}
+                        {props.info.text2}
                     </Text>
                     <Box
                         m={{sm: '16px 0 0', lg: '19px 0 0', '2xl': '18px 0 0'}}
                     >
                         {
-                            props.info.page.about.welcome.list.map((item, index) => (
+                            props.info.list.map((item, index) => (
                                 <Box 
                                     key={index}
                                     display={{sm: 'flex'}}

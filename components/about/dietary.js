@@ -10,53 +10,15 @@ export default function Dietary(props) {
                 maxW='1200px'
                 display={{md: 'flex'}}
             >
-            {/* <Flex
-                display='flex'
-                flexWrap='wrap'
-            >
-                <Text>{props.info.page.about.dietary.left.text1}</Text>
-                <Text>{props.info.page.about.dietary.left.text2}</Text>
-
-                    {
-                        props.info.page.about.dietary.left.list.map((item, index) => (
-                            <Text key={index}>
-                                <Flex>
-                                    <Text>{item.text}</Text>
-                                    <Text>, </Text>
-                                </Flex>
-                            </Text>
-                            
-                        ))
-                    }
-
-                <Text>{props.info.page.about.dietary.left.text3}</Text>
-                <Text>{props.info.page.about.dietary.left.text4}</Text>
-                <Text>{props.info.page.about.dietary.left.text5}</Text>
-            </Flex> */}
-            {/* <Flex>
-                <Text>Expect new recipes weekly</Text>
-                <Text>, with a mix of savory and sweet including </Text>
-                <Text>desserts</Text>
-                <Text>,</Text>
-                <Text>breakfast</Text>
-                <Text>,</Text>
-                <Text>entrées</Text>
-                <Text>,</Text>
-                <Text>sides</Text>
-                <Text>,</Text>
-                <Text>snacks</Text>
-                <Text>, and more (</Text>
-                <Text>find all recipes here</Text>
-                <Text>). When you make one of our recipes we want you to say, “How was it that simple but still tastes that good?!”</Text>
-            </Flex> */}
                 <Box
                     p={{md: '30px 64px 0 0', '2xl': '40px 64px 0 0'}}
                 >
                     <Text
                         fontSize={{sm: '17px', md: '19px'}}
                         lineHeight={{sm: '29px'}}
+                        dangerouslySetInnerHTML={{__html: props.info.left.text1}}
+                        id="dietary"
                     >
-                        Expect new recipes weekly, with a mix of savory and sweet including desserts, breakfasts, entrées, sides, snacks, and more (find all recipes here). When you make one of our recipes we want you to say, “How was it that simple but still tastes that good?!”
                     </Text>
                     <Box
                         m={{sm: '88px 0 0', lg: '117px 0 0'}}
@@ -68,7 +30,7 @@ export default function Dietary(props) {
                             m={{sm: '0 auto'}}
                             lineHeight={{sm: '20px'}}
                         >
-                            {props.info.page.about.dietary.left.title}
+                            {props.info.left.title}
                         </Text>
                         <Text
                             fontSize={{sm: 'xl'}}
@@ -76,7 +38,7 @@ export default function Dietary(props) {
                             m={{sm: '2px 0 0'}}
                             letterSpacing={{sm: '1px'}}
                         >
-                            {props.info.page.about.dietary.left.subtitle}
+                            {props.info.left.subtitle}
                         </Text>
                         <Box
                             display={{lg: 'flex'}}
@@ -85,7 +47,7 @@ export default function Dietary(props) {
                             justifyContent={{lg: 'center'}}
                         >
                             {
-                                props.info.page.about.dietary.left.recipesKey.map((item, index) => (
+                                props.info.left.recipesKey.map((item, index) => (
                                     <Box
                                         key={index}
                                         display='flex'
@@ -126,14 +88,14 @@ export default function Dietary(props) {
                             m={{sm: '77px 0 0', lg: '58px 0 0'}}
                             lineHeight={{sm: '30.5px', md: '34px'}}
                         >
-                            {props.info.page.about.dietary.left.text}
+                            {props.info.left.text}
                         </Text>
                         <Text
                             fontSize={{sm: 'xs'}}
                             m={{sm: '19px 0 0'}}
                             lineHeight={{sm: '26px'}}
                         >
-                            {props.info.page.about.dietary.left.nota}
+                            {props.info.left.nota}
                         </Text>
                         <Box
                             w={{sm: '98%', md: '66%', lg: '37.5%', xl: '28.5%', '2xl': '26.5%'}}
@@ -157,7 +119,7 @@ export default function Dietary(props) {
                         w={{sm: '380px'}}
                     >
                         <Image 
-                            src={props.info.page.about.dietary.right.src} 
+                            src={props.info.right.src} 
                             alt='' 
                             w='100%'
                         />

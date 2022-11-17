@@ -1,9 +1,13 @@
 import { Box, Image, Text } from '@chakra-ui/react';
+import Deeper from '../components/about/deeper';
 import Dietary from '../components/about/dietary';
+import Resources from '../components/about/resources';
 import Welcome from '../components/about/welcome';
 import Header from '../components/header';
 import Menu from '../components/menu';
 import Subscribe from '../components/subscribe';
+/* import '../styles/global.css'; */
+
 export default function About(props) {
 
     return (
@@ -13,9 +17,12 @@ export default function About(props) {
         >
             <Header info={props} />
             <Menu info={props} />
-            <Welcome info={props} />
+            <Welcome info={props.page.about.welcome} />
             <Subscribe info={props} />
-            <Dietary info={props} />
+            <Dietary info={props.page.about.dietary} />
+            <Resources info={props.page.about.resources} />
+            <Deeper info={props.page.about.deeper} />
+            <Subscribe info={props} />
         </Box>
     )
 }
